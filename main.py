@@ -15,6 +15,8 @@ app = FastAPI()
 # جلب التوكن من Render Environment Variables
 TOKEN = os.getenv("BOT_TOKEN")
 
+print("TOKEN =", TOKEN)
+
 # رابط Render
 RENDER_EXTERNAL_URL = os.getenv("RENDER_EXTERNAL_URL")
 
